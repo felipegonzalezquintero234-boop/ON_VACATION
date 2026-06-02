@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="index.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - On Vacation</title>
@@ -57,13 +56,22 @@
             font-size:16px;
             font-weight:bold;
             cursor:pointer;
+            margin-top:10px;
         }
 
         .login-box button:hover{
             background:linear-gradient(to right,#0284c7,#0369a1);
         }
-    </style>
 
+        .btn-inicio{
+            margin-top:15px;
+            background:linear-gradient(to right,#22c55e,#16a34a);
+        }
+
+        .btn-inicio:hover{
+            background:linear-gradient(to right,#16a34a,#15803d);
+        }
+    </style>
 </head>
 <body>
 
@@ -73,11 +81,16 @@
 
             <form>
                 <input type="text" placeholder="Usuario" required>
-
                 <input type="password" placeholder="Contraseña" required>
 
                 <button type="submit">Ingresar</button>
             </form>
+
+            <!-- Botón para volver al inicio -->
+            <button class="btn-inicio" onclick="window.location.href='index.html'">
+                Volver al Inicio
+            </button>
+
         </div>
     </div>
 
