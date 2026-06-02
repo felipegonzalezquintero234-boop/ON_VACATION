@@ -1,0 +1,389 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #f0f9ff);
+    color: #222;
+}
+
+/* ENCABEZADO */
+.franja{
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.franja h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+/* MENÚ */
+.tabs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tab{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tab:hover{
+    color: #38bdf8;
+}
+
+/* TITULO */
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.titulo h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.titulo p{
+    color: #555;
+    font-size: 18px;
+}
+
+/* BUSQUEDA */
+.busqueda{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+select,
+input{
+    width: 250px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+select:focus,
+input:focus{
+    border-color: #38bdf8;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(56,189,248,0.5);
+}
+
+/* FORMULARIOS */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 60px 20px;
+}
+
+.form-box{
+    background-color: white;
+    width: 320px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.form-box:hover{
+    transform: translateY(-5px);
+}
+
+.form-box h3{
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+/* BOTONES */
+button{
+    background: linear-gradient(to right, #0ea5e9, #0284c7);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: linear-gradient(to right, #0284c7, #0369a1);
+    transform: scale(1.03);
+}
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #dbeafe, #f8fafc);
+            color: #222;
+        }
+
+       
+
+        .franja{
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            padding: 25px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .logo{
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .logo span{
+            color: #38bdf8;
+        }
+
+        .tabs{
+            display: flex;
+            gap: 30px;
+        }
+
+        .tab{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .tab:hover{
+            color: #38bdf8;
+        }
+
+        
+
+        .hero{
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1{
+            font-size: 55px;
+            color: #0f172a;
+            margin-bottom: 20px;
+        }
+
+        .hero p{
+            font-size: 20px;
+            color: #555;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+ 
+
+        .card-principal{
+            background-color: white;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .card-principal h2{
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0f172a;
+            font-size: 35px;
+        }
+
+
+
+        .busqueda{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        .campo{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .campo label{
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #0f172a;
+        }
+
+        select,
+        input{
+            width: 250px;
+            padding: 13px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        select:focus,
+        input:focus{
+            outline: none;
+            border-color: #38bdf8;
+            box-shadow: 0px 0px 10px rgba(56,189,248,0.5);
+        }
+
+        
+
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .form-box{
+            background: #f8fafc;
+            width: 320px;
+            padding: 30px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            box-shadow: 0px 6px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .form-box:hover{
+            transform: translateY(-5px);
+        }
+
+        .form-box h3{
+            text-align: center;
+            color: #0f172a;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        
+
+        button{
+            background: linear-gradient(to right, #0ea5e9, #0284c7);
+            color: white;
+            border: none;
+            padding: 13px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background: linear-gradient(to right, #0284c7, #0369a1);
+            transform: scale(1.03);
+        }
+
+      
+        .destinos{
+            margin-top: 70px;
+            text-align: center;
+        }
+
+        .destinos h2{
+            margin-bottom: 40px;
+            color: #0f172a;
+            font-size: 35px;
+        }
+
+        .galeria{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .destino-card{
+            background-color: white;
+            width: 280px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .destino-card:hover{
+            transform: translateY(-8px);
+        }
+
+        .destino-card img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .destino-info{
+            padding: 20px;
+        }
+
+        .destino-info h3{
+            margin-bottom: 10px;
+            color: #0f172a;
+        }
+
+        .destino-info p{
+            color: #666;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+
+        footer{
+            margin-top: 70px;
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }

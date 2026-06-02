@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Vacation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="franja">
+
+        <div class="logo">
+            On <span>Vacation</span>
+        </div>
+
+        <nav class="tabs">
+            <button onclick="window.location.href='index.html'">Inicio</button>
+            <button onclick="window.location.href='destinos.html'">Destinos</button>
+            <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
+            <button onclick="window.location.href='registro.html'">Registrarse</button>
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h1>Viaja por el Mundo</h1>
+
+        <p>
+            Reserva tus vuelos y encuentra los mejores destinos turísticos
+            con comodidad, seguridad y excelentes precios.
+        </p>
+
+        <button class="btn-principal">
+            Explorar Destinos
+        </button>
+
+    </section>
+
+    <!-- RESERVA -->
+    <section class="card-principal">
+
+        <h2>Compra tu Tiquete</h2>
+
+        <div class="busqueda">
+
+            <div class="campo">
+                <label>Ciudad de origen</label>
+                <select>
+                    <option>Selecciona una ciudad</option>
+                    <option>Bogotá</option>
+                    <option>Medellín</option>
+                    <option>Cali</option>
+                    <option>Barranquilla</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Ciudad de destino</label>
+                <select>
+                    <option>Selecciona un destino</option>
+                    <option>Cartagena</option>
+                    <option>Santa Marta</option>
+                    <option>San Andrés</option>
+                    <option>Medellín</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Fecha del viaje</label>
+                <input type="date">
+            </div>
+
+            <div class="campo">
+                <label>Pasajeros</label>
+                <input type="number" min="1" value="1">
+            </div>
+
+        </div>
+
+        <div class="contenedor">
+
+            <div class="campo">
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Ingrese su nombre">
+            </div>
+
+            <div class="campo">
+                <label>Correo electrónico</label>
+                <input type="email" placeholder="Ingrese su correo">
+            </div>
+
+            <button class="btn-buscar">
+                Buscar Vuelos
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- DESTINOS -->
+    <section class="destinos">
+
+        <h2>Destinos Populares</h2>
+
+        <div class="galeria">
+
+            <div class="destino-card">
+                <img src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1200&auto=format&fit=crop"
+                    alt="Cartagena">
+
+                <div class="destino-info">
+                    <h3>Cartagena</h3>
+                    <p>Disfruta de playas increíbles y una ciudad llena de historia.</p>
+                </div>
+            </div>
+
+            <div class="destino-card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"
+                    alt="San Andrés">
+
+                <div class="destino-info">
+                    <h3>San Andrés</h3>
+                    <p>Descubre el mar de siete colores y vive una experiencia única.</p>
+                </div>
+            </div>
+
+            <div class="destino-card">
+                <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1200&auto=format&fit=crop"
+                    alt="Santa Marta">
+
+                <div class="destino-info">
+                    <h3>Santa Marta</h3>
+                    <p>Explora hermosos paisajes naturales y playas paradisíacas.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 On Vacation - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
